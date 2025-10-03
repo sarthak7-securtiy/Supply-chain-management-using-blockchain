@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "outDir": "dist",
+    "rootDir": "src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"],
+  "suppliers": [
+    {
+      "id": "supplier1",
+      "name": "Supplier One",
+      "role": "supplier"
+    }
+  ],
+  "type": "delivery",
+  "data": {
+    "productId": "prod123",
+    "quantity": 100,
+    "recipient": "manufacturer1",
+    "timestamp": 1696243200000
+  },
+  "participants": ["supplier1", "manufacturer1"],
+  "consensusParticipants": ["supplier1", "manufacturer1"]
+}

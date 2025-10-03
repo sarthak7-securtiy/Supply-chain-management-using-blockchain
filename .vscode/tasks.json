@@ -1,0 +1,85 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Supply Chain Server",
+			"type": "shell",
+			"command": "npx ts-node src/server.ts",
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Run Supply Chain Server",
+			"type": "shell",
+			"command": "npx ts-node src/server.ts",
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Run Supply Chain Server",
+			"type": "shell",
+			"command": "npx ts-node src/server.ts",
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Build Supply Chain Project",
+			"type": "shell",
+			"command": "npm run build",
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Start Supply Chain Server (JS)",
+			"type": "shell",
+			"command": "npm start",
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Rebuild Supply Chain Project",
+			"type": "shell",
+			"command": "npm run build",
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Rebuild Supply Chain Project",
+			"type": "shell",
+			"command": "npm run build",
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Rebuild and Start Supply Chain Server",
+			"type": "shell",
+			"command": "npm run build && npm start",
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Clean dist directory",
+			"type": "shell",
+			"command": "Remove-Item -Recurse -Force dist",
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Build and Start Supply Chain Server",
+			"type": "shell",
+			"command": "npm run build; npm start",
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}
